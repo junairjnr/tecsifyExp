@@ -165,7 +165,7 @@ body {
     animation: fadeUp 0.8s 0.45s ease both;
   }
 
- @media screen and (max-width: 325px) {
+@media screen and (min-width: 200px) and (max-width: 325px) {
   .hero-btns {
     margin-bottom: 100px;
   }
