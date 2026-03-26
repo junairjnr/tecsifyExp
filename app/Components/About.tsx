@@ -160,18 +160,18 @@ export default function About() {
           </p>
 
           {/* Mission & Vision */}
-          <div className="grid sm:grid-cols-2 gap-4 mt-8">
-            <div className="p-5 rounded-xl bg-green-50 border">
+          <div className="grid sm:grid-cols-2 gap-4 mt-8 " style={{marginBottom:'10px'}}>
+            <div className="p-5 rounded-xl bg-green-50 border" style={{padding:5}}>  
               <h4 className="font-semibold mb-2">🎯 Our Mission</h4>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600"style={{padding:2}}>
                 To connect Kerala's finest coconut produce to the world's
                 markets, delivering unmatched quality and reliability.
               </p>
             </div>
 
-            <div className="p-5 rounded-xl bg-yellow-50 border">
+            <div className="p-5 rounded-xl bg-yellow-50 border" style={{padding:5}}>
               <h4 className="font-semibold mb-2">🌟 Our Vision</h4>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600" style={{padding:2}}>
                 To be India's most trusted coconut export brand, known for
                 sustainability and global standards.
               </p>
@@ -208,7 +208,7 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
-                className="flex gap-3 items-start p-4 rounded-lg border hover:shadow-md transition"
+                className="flex gap-3 items-start p-4 rounded-lg border hover:shadow-md transition"style={{padding:4}}
               >
                 <span className="text-xl">{item.icon}</span>
                 <div>
