@@ -161,8 +161,15 @@ body {
   }
   .hero-btns {
     display: flex; gap: 16px; flex-wrap: wrap;
+    /* margin-bottom: 100px; */
     animation: fadeUp 0.8s 0.45s ease both;
   }
+
+ @media screen and (max-width: 325px) {
+  .hero-btns {
+    margin-bottom: 100px;
+  }
+}
   .btn-primary {
     display: inline-flex; align-items: center; gap: 8px;
     background: var(--gold); color: var(--green-deep);
