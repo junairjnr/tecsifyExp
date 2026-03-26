@@ -117,7 +117,6 @@ export default function Gallery() {
   return (
     <section id="gallery" className="py-20 px-4">
       <div className="max-w-[1200px] mx-auto">
-        
         {/* Heading */}
         <div className="text-center mb-14">
           <span className="section-tag">Gallery</span>
@@ -156,7 +155,6 @@ export default function Gallery() {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );

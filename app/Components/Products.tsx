@@ -20,7 +20,6 @@ export default function Products() {
         </div>
 
         <div className="products-grid">
-
           {/* Product Card */}
           {[
             {
@@ -50,7 +49,6 @@ export default function Products() {
             },
           ].map((item, i) => (
             <div key={i} className="product-card reveal">
-              
               {/* Image */}
               <div className="product-img-wrap relative w-full h-[200px]">
                 <Image
@@ -122,7 +120,6 @@ export default function Products() {
               Send Inquiry →
             </a>
           </div>
-
         </div>
       </div>
     </section>

@@ -37,9 +37,9 @@ export default function Contact() {
                 <div className="contact-detail-val">
                   Tecsify Exportings
                   <br />
-                  Tirur, Malappuram District
+                  Thalakkadathur, Tirur, Malappuram District
                   <br />
-                  Kerala, India — 676 101
+                  Kerala, India — 676 103
                 </div>
               </div>
             </div>
@@ -49,10 +49,10 @@ export default function Contact() {
               <div>
                 <div className="contact-detail-title">Phone & WhatsApp</div>
                 <div className="contact-detail-val">
-                  <a href="tel:+919876543210">+91 98765 43210</a>
+                  <a href="tel:+919876543210">+91 95390 18161</a>
                   <br />
                   <a
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/919539018161"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -67,9 +67,13 @@ export default function Contact() {
               <div>
                 <div className="contact-detail-title">Email</div>
                 <div className="contact-detail-val">
-                  <a href="mailto:exports@tecsify.com">exports@tecsify.com</a>
+                  <a href="mailto:junairjunu869@gmail.com">
+                    exports@tecsify.com
+                  </a>
                   <br />
-                  <a href="mailto:inquiry@tecsify.com">inquiry@tecsify.com</a>
+                  <a href="mailto:junairjunu869@gmail.com">
+                    inquiry@tecsify.com
+                  </a>
                 </div>
               </div>
             </div>
@@ -138,7 +142,7 @@ export default function Contact() {
                   </div>
                   <div className="form-group">
                     <label>Phone / WhatsApp</label>
-                    <input type="tel" placeholder="+1 234 567 8900" />
+                    <input type="tel" placeholder="+91........" />
                   </div>
                 </div>
 

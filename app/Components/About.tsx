@@ -103,13 +103,12 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import rootImage from '../../public/assets/thenga_image.jpg'
+import rootImage from "../../public/assets/thenga_image.jpg";
 
 export default function About() {
   return (
     <section id="about" className="py-20 px-4">
       <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-12 items-center">
-        
         {/* Image Section */}
         <motion.div
           initial={{ opacity: 0, x: -60 }}

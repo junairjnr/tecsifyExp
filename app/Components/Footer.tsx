@@ -108,13 +108,13 @@ export default function Footer() {
             {/* <span>📍</span>
         <span>Tirur, Malappuram, Kerala 676101</span> */}
             <div className="footer-contact-item flex flex-col gap-2">
-              <span>📍 Tirur, Malappuram, Kerala 676101</span>
+              <span>📍 Thalakkadathur, Tirur, Malappuram, Kerala 676103</span>
             </div>
           </div>
 
           <div className="footer-contact-item">
             <span>📞</span>
-            <span>+91 98765 43210</span>
+            <span>+91 995390 18161</span>
           </div>
 
           <div className="footer-contact-item">
